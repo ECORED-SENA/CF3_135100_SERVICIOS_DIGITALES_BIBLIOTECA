@@ -9,13 +9,15 @@
           i.fas.fa-info
       h1 Introducción
 
-    .bg--paleOrange.p-4.br_01.mb-5(data-aos="zoom-in")
-      .row  
-        .col-auto
+    .bg--pale.p-4.br_01.mb-5(data-aos="zoom-in")
+      .row.align-items-center  
+        .col-auto.d-none.d-lg-flex
           figure
             img(src="@/assets/curso/temas/intro/intro.svg", alt="alt").img190
         .col          
-          p.mb-0 Aquí comienza el estudio del componente formativo #[span.bold.txt--orange “Preparación y registro de información”]. Para garantizar una experiencia satisfactoria se debe prestar atención a cada punto desarrollado y realizar todos los pasos o indicaciones propuestos en los contenidos y temáticas; así, para iniciar se invita a visualizar con atención el video que a continuación se muestra. #[span.bold.txt--orange ¡Éxitos!]
+          p El servicio es la ventaja competitiva y objeto diferenciador que tienen todas las organizaciones sin importar su actividad económica, así mismo las estrategias y medidas que se generan deben impulsar el desarrollo sostenible de la comunidad.
+
+          p.mb-0 Bienvenido al estudio del componente formativo #[span.bold.txt--orange “Servicios e identificación de necesidades al usuario en biblioteca”]. Comience observando con atención el video que se muestra a continuación. #[span.bold.txt--orange ¡Adelante!]
 
     figure
       .video

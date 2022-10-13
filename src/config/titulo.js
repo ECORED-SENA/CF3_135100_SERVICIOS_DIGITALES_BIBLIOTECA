@@ -1,1 +1,2 @@
-module.exports = 'Preparación y registro de información'
+module.exports =
+  'Servicios e identificación de necesidades al usuario en biblioteca.'

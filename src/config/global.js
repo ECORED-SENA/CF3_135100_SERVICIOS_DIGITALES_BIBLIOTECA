@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Preparación y registro de información',
+    componenteFormativo:
+      'Servicios e identificación de necesidades al usuario en biblioteca.',
     descripcionCurso:
-      'Este componente formativo aborda aspectos clave de la gestión de administración, registro de documentos digitales en las organizaciones, aplicación de las entidades de información digital, metadatos y software para el desarrollo eficiente. Mediante el estudio de este componente, el aprendiz afianzará sus conocimientos y habilidades relacionadas con alistamiento, clasificación, recolección y protocolos de gestión de información.',
+      'En esta unidad el aprendiz conocerá al usuario, razón de ser de la biblioteca, así mismo la clasificación y tipos de usuarios y un conjunto de técnicas y herramientas como web 2.0 y alfabetización informacional en la gestión del servicio al cliente, para encaminarse a la satisfacción de las necesidades que se demandan en el ciclo del servicio, impulsando el desarrollo sostenible.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -21,10 +22,6 @@ export default {
       {
         clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
       },
     ],
   },
@@ -45,31 +42,31 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Entidades de información digital',
+        titulo: 'Cliente o usuario',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Alistamiento y preparación',
+            titulo: 'Clasificación de clientes',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Formatos, funcionalidad y características de contenidos',
+            titulo: 'Población vulnerable',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Clasificación digital y su normativa',
+            titulo: 'Servicio al cliente y triángulo del servicio',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Procedimiento para la clasificación de información',
+            titulo: 'Momentos de verdad con el cliente y su ciclo',
             hash: 't_1_4',
           },
         ],
@@ -79,69 +76,36 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Metadatos',
+        titulo: 'Netiqueta y protocolo empresarial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Criterios de diligenciamiento',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Herramientas electrónicas en la gestión de metadatos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Normas de seguridad de la información',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo:
-              'Criterios de organización en entidades de información digital',
-            hash: 't_2_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Registro de información',
+        titulo: 'Alfabetización informacional',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Técnicas de recolección y exportación de información',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Métodos de almacenamiento y consulta de información',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: '<em>Software</em> para registro de la información',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo:
-              'Protocolos y relaciones en las herramientas de <em>software</em>',
-            hash: 't_3_4',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Ciencia y conocimiento de información',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Desarrollo sostenible',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: '<em>Web</em> 2.0. y referencia virtual',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -186,41 +150,69 @@ export default {
   },
   complementario: [
     {
-      tema: 'Entidades de información digital.',
-      referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022). La tecnología en la información digital.',
+      tema: 'Cliente o usuario',
+      referencia: 'Ecosistema de Recursos Educativos Digitales SENA. (2021).',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=puMO4kf6PRI',
+      link: 'https://www.youtube.com/watch?v=4WIq433jNMA',
     },
     {
-      tema: 'Metadatos',
-      referencia: 'Microaprendizaje: internet. (2019). Qué son los metadatos.',
+      tema: 'Netiqueta y protocolo empresarial',
+      referencia: 'Ecosistema de Recursos Educativos Digitales SENA. (2019). ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=W9df022FHlE',
+      link: 'https://www.youtube.com/watch?v=nETS1sXMKbw',
     },
     {
-      tema: 'Registro de información.',
+      tema: 'Alfabetización informacional',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Administración y normativa de registros de información: introducción. ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Alfabetización digital.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=ytQ19oNM_Ro',
+      link: 'https://www.youtube.com/watch?v=HBHsp9dZcPo',
+    },
+    {
+      tema: 'Ciencia y conocimiento de la información',
+      referencia:
+        'Somos UMAZA. (2021). Alfabetización informacional que significa. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=VqNn-Ci_MGY',
+    },
+    {
+      tema: 'Desarrollo Sostenible',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Objetivos de Desarrollo Sostenible',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=QmDctvoX0i4',
     },
   ],
   glosario: [
     {
-      termino: 'Búsqueda',
+      termino: 'Análisis',
       significado:
-        'conjunto de procedimientos y operaciones que un usuario realiza para obtener la información que necesita.',
+        'examen detallado de una cosa para conocer sus características o cualidades, o su estado, y extraer conclusiones, que se realiza separando o considerando por separado las partes que la constituyen.',
     },
     {
-      termino: 'Búsqueda automatizada interactiva',
+      termino: 'Comunicación asincrónica',
       significado:
-        'técnica de búsqueda consistente en explotar un ordenador de manera que se desarrolle una serie de preguntas y respuestas alternas entre un usuario y el ordenador de manera parecida a un diálogo entre dos personas.',
+        'comunicación que no se lleva en tiempo real, por el cual los usuarios envían una consulta y el bibliotecario le responde eventualmente. Por ejemplo, el correo electrónico, formulario electrónico y facsímil.',
     },
     {
-      termino: 'Gestión de la Información (GI)',
+      termino: 'Comunicación sincrónica',
       significado:
-        'denominación convencional de un conjunto de procesos por los cuales se controla el ciclo de vida de la información, desde su obtención (por creación o captura), hasta su disposición final (su archivo o eliminación).',
+        'comunicación que se lleva a cabo en tiempo real. El usuario y el bibliotecario se comunican al mismo tiempo. Por ejemplo, <em>chat</em>, teléfono y videoconferencia',
+    },
+    {
+      termino: 'Datos',
+      significado:
+        'información concreta sobre hechos, elementos, etc., que permite estudiarlos, analizarlos o conocerlos.',
+    },
+    {
+      termino: 'Formulario <em>Web</em>',
+      significado:
+        'hoja electrónica que permite el ingreso de datos los cuales serán procesados a través de un servidor.',
+    },
+    {
+      termino: 'Gestión',
+      significado:
+        'acción o trámite que se lleva a cabo para conseguir o resolver una situación. ',
     },
     {
       termino: 'Herramienta digital',
@@ -228,61 +220,47 @@ export default {
         'paquetes informáticos que están en las computadoras, o en dispositivos electrónicos como celulares y tabletas, entre otros.',
     },
     {
-      termino: '<em>Hardware</em>',
-      significado:
-        'conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático',
-    },
-    {
       termino: 'Información',
       significado:
         'conjunto de datos, ya procesados y ordenados para su comprensión, que aportan nuevos conocimientos a un individuo o sistema sobre un asunto, materia, fenómeno o ente determinado.',
     },
     {
-      termino: 'Metadatos para la gestión de documentos',
+      termino: 'Referencia Virtual',
       significado:
-        'información estructurada o semiestructurada que permite la creación, gestión y uso de los documentos a lo largo del tiempo y entre diferentes dominios.',
+        'servicio de referencia iniciado electrónicamente, a menudo en tiempo real, donde los usuarios emplean computadoras u otra tecnología de <em>internet</em> para comunicarse con los bibliotecarios, sin estar físicamente presentes. ',
     },
     {
-      termino: 'Seguridad de la información',
+      termino: 'Referencista',
       significado:
-        'conjunto de medidas preventivas y reactivas de las organizaciones y sistemas tecnológicos que permiten resguardar y proteger la información buscando mantener la confidencialidad, la disponibilidad e integridad de datos.',
-    },
-    {
-      termino: '<em>Software</em>',
-      significado:
-        'conjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas.',
+        'bibliotecario encargado del servicio de asistencia intelectual a los lectores, a fin de que estos puedan aprovechar racional y metódicamente los recursos de los que dispone la biblioteca.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Archivo General de la Nación (2022). Guía para la formulación de un esquema de metadatos para la gestión de documentos.  ',
+        'Rendón, R., M. A., y Cruz, D., S., et l. (2011). Bibliotecología, archivística, documentación: intradisciplina, interdisciplina o transdisciplinariedad. UNAM, Centro Universitario de Investigaciones Bibliotecológicas',
       link:
-        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/5_Consulte/Recursos/Publicacionees/GuiaDeMetadatos.pdf',
+        'https://libros.metabiblioteca.org/bitstream/001/380/8/978-607-02-0749-5.pdf',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación. (2022). Normas técnicas de la información y seguridad de la familia ISO 27000. Icontec',
-      link:
-        'https://www.icontec.org/servicio-educacion/modulares-de-educacion/',
+        'Bawden, D. (2002). Revisión de los conceptos de alfabetización informacional y alfabetización digital. Anales de Documentación (5) ',
+      link: 'http://www.um.es/fccd/anales/ado5/ado521.pdf',
     },
     {
       referencia:
-        'Ministerio de Educación. (2022). Guía para la clasificación de la información.',
+        'Río, J. (2008). Didáctica de la bibliotecología: teoría y principios desde la enseñanza de la ciencia. UNAM, Centro Universitario de Investigaciones Bibliotecológicas. ',
       link:
-        'https://www.mineducacion.gov.co/1759/articles-407695_galeria_14.pdf',
+        'https://libros.metabiblioteca.org/bitstream/001/389/8/978-970-32-4583-3.pdf',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones - MinTIC. (2022). Entidades del sector. MinTIC. ',
-      link:
-        'https://www.mintic.gov.co/portal/inicio/Ministerio/Entidades-del-sector/',
+        'Servicio Nacional de Aprendizaje. SENA. (s. f.). Población vulnerable.',
+      link: 'https://www.sena.edu.co/es-co/trabajo/Paginas/default.aspx',
     },
     {
-      referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones - MinTIC. (2022). Interoperabilidad. MinTIC.  ',
-      link:
-        'https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8117.html',
+      referencia: 'Albrecht, K. (2001). La excelencia del servicio”.',
+      link: '',
     },
   ],
   creditos: {
@@ -312,13 +290,13 @@ export default {
           'Centro de la Industrial, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
-        nombre: 'Carolina Coca Salazar',
+        nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Asesora metodológica',
+        cargo: 'Corrector de estilo',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],

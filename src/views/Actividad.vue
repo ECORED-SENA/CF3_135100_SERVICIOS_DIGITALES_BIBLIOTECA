@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 ¡Preparando y registrando la información en la biblioteca!
-        p.mb-4 Reafirmar los conceptos y aspectos clave del alistamiento, clasificación, recolección y protocolos para la gestión de la información en las organizaciones, con base en las temáticas desarrolladas en el componente formativo.
+          h2 Identificando necesidades del usuario de bibliotecas
+        p.mb-4 Reafirmar los conceptos de servicio y atención para la identificación de necesidades de usuarios de bibliotecas, con base en los temas desarrollados en el componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso / Verdadero
+              p.fw-bold.mb-0 Completar los espacios
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

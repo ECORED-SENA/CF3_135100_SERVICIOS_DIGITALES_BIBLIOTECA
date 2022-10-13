@@ -7,12 +7,12 @@
       .row.align-items-center  
         .col-auto
           figure
-            img(src="@/assets/curso/temas/recursos/warning_03.svg", alt="alt").img120
+            img(src="@/assets/curso/temas/recursos/warning_04.svg", alt="alt").img120
         .col          
-          p.text-white.mb-0 Si ha llegado a este punto, usted ha finalizado con el estudio de los contenidos de este componente formativo. Aquí, haga un análisis de la estructura que se muestra a continuación. Registre esta síntesis en su libreta personal de apuntes y repase los temas que considere más importantes. ¡Adelante!
+          p.mb-0 #[span.txt--white Se ha finalizado el estudio de los contenidos de este componente formativo. En este punto, es necesario analizar la estructura que se muestra a continuación. Se invita a registrar esta síntesis en la libreta personal de apuntes y repasar los temas que considere necesarios.] #[span.bold.txt--orange ¡Adelante!]
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-11.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.png", alt="alt")
       .col-auto

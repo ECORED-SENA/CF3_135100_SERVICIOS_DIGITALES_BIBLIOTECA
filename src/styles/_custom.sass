@@ -2,40 +2,34 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 10%
-    left: 20%
-    width: 80px
+    bottom: 10%
+    right: 28%
+    width: 100px
   &-2
     animation: scale1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 28%
-    left: 7%
+    top: 55%
+    left: 0%
     width: 95px
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    bottom: 20%
-    left: 13%
-    width: 80px
+    bottom: 10%
+    left: 0%
+    width: 100px
   &-4
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 25%
-    right: 30%
-    width: 120px
-  &-5
-    animation: scale1 2s ease-in-out infinite alternate
-    position: absolute
-    bottom: 10%
-    right: 30%
-    width: 95px
+    top: 32%
+    right: 25%
+    width: 120px 
 
 @media (max-width: 1399px)
   .banner-principal-decorativo
-    &-1
-      width: 80px
-      left: 18%
+    &-1      
+      rigth: 28%
     &-2
+      top: 55%
       width: 90px
     &-3
       width: 70px
@@ -47,9 +41,10 @@
 @media (max-width: 1199px)
   .banner-principal-decorativo
     &-1
-      width: 60px
+      width: 80px      
     &-2
       width: 70px
+      top: 55%
     &-3
       width: 60px
     &-4
@@ -91,6 +86,8 @@
   width: 190px
 .img300
   width: 300px
+.img450
+  max-width: 450px
 
 .hg-100
   height: 100%
@@ -98,19 +95,47 @@
 .br_01
   border-radius: 15px
 
+.vp_middle
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
 // text utilities -----------------------------------------
 .bold
   font-weight: 700
 .txt--brown
   color: #785549
 .txt--orange
-  color: #FD9827
+  color: #FD9827 
+.txt--dark
+  color: #31313C
+.txt--white
+  color: #ffffff
+
+.cstm_H3 
+  position: relative
+  display: inline-block
+  padding-right: 1rem
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 70%
+    background-color: #C0C942
+
+  
 
 // bg colors -----------------------------------------
 .bg--white
   background-color: #ffffff
 .bg--paleOrange
   background-color: #FFF0DE
+.bg--pale
+  background-color: #F5E8DF
 .bg--darkOrange
   background-color: #EBC9B1
 .bg--Orange
@@ -123,9 +148,17 @@
   background-color: #EDEDEE
 .bg--darkBlue
   background-color: #31313C 
+.bg--brown
+  background-color: #785549
+
+.pill_Black
+  padding: 0.5rem 1rem
+  border-radius: 999px
+  background-color: #31313C
 
 .halfbg--gray
   position: relative
+  background-color: white
   & > *
     position: relative
   &::before
@@ -148,7 +181,46 @@
     left: -48px
     width: calc( 100% + 96px)
     height: 100%
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,253,250,1) 48%, rgba(239,239,239,1) 100%)
+    background: linear-gradient(180deg, rgba(239,238,239,1) 0%, rgba(255,252,249,1) 100%)
+
+.bg--grad_02
+  position: relative
+  & > *
+    position: inherit
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(239,238,239,1) 11%, rgba(239,238,239,1) 73%, rgba(255,255,255,1) 87%, rgba(255,255,255,1) 93%)
+
+.bg--grad_03
+  position: relative
+  & > *
+    position: inherit
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 13%, rgba(255,247,238,1) 18%, rgba(239,239,239,1) 100%)
+
+.bg_clr_01
+  position: relative
+  & > *
+    position: inherit
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px)
+    height: 100%
+    background-color: #F5E8DF
   
 
 // Hovers  -----------------------------------------
@@ -156,7 +228,13 @@
   background-color: #F5E8DF
   &:hover
     background-color: #785549
-    p
+    p, h5
+      color: white
+.hoverBrown_02  
+  background-color: #EBC9B1
+  &:hover
+    background-color: #785549
+    p, h5
       color: white
 .hoverOrange
   background-color: #FDB768
@@ -166,7 +244,7 @@
       color: white
 
 // bg img  -----------------------------------------
-.bg_img_01, .bg_img_02, .bg_img_03, .bg_slyder_02
+.bg_img_02, .bg_img_03, .bg_slyder_02, 
   position: relative
   & > *
     position: relative
@@ -178,12 +256,17 @@
     width: calc( 100% + 96px)
     height: 100%
 
-.bg_img_01
-  &::before    
-    background-image: url("../assets/curso/temas/recursos/bg_img_01.svg")
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: top left
+.bg_img_01    
+  background-image: url("../assets/curso/temas/recursos/bg_img_01.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
+
+.bg_slyder_01A    
+  background-image: url("../assets/curso/temas/recursos/bg_slyder_01A.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
 
 .bg_img_02
   &::before    
@@ -219,6 +302,14 @@
   background-size: cover
   background-position: bottom center
 
+.bg_Pasos_C
+  width: 100%
+  height: 100%
+  background-image: url("../assets/curso/temas/recursos/bg_Pasos_C.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top left
+
 // slyder B custom  -----------------------------------------
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   border: none
@@ -245,20 +336,42 @@
 .horizontal-scroll
   align-items: stretch !important
 
+.slyder-f__btn i
+  font-size: 2rem
+  padding: 1rem 1.3rem
+  background-color: #C0C942
+  border-radius: 999px
+
+  @media (max-width: 989px)
+    font-size: 1.5rem
+    padding: 0.5rem 0.8rem
+
+  @media (max-width: 678px)
+    font-size: 1rem
+    padding: 0.5rem 0.7rem
+
 // Linea de tiempo D  -----------------------------------------
 .linea-tiempo-d__item.linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content
     background-color: #DDD4D1 !important
 
-// Actividad didáctica  -----------------------------------------
+// Infografia interactiva  -----------------------------------------
 
 .img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
   opacity: 1
 
 .img-infografica__item, .img-infografica-b__item  
-  width: 4%
+  width: 3%
 
-// Actividad didáctica  -----------------------------------------
+// Infografia interactiva B(modal) -----------------------------------------
+
+.img-infografica-b__modal
+  background-color: #31313C
+
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  display: none
+
+// Tabs  -----------------------------------------
 .tabs-a__tab
   background-color: #E8E8E8
 
@@ -271,6 +384,10 @@
 
 .cellLightBrown
   background: #EBC9B1
+.cell_Pale
+  background: #FFF0DE
+.cell_White
+  background: #ffffff
 
 // Card hover  -----------------------------------------
 .crd_hover_txt
@@ -297,3 +414,13 @@
   top: 50%
   left: 50%
   transform: translate(-50%,-50%)
+
+// Acordion  -----------------------------------------
+.acordion__accion__btn--b
+  border: none
+  background-color: #C0C942
+
+// Linea de tiempo C  -----------------------------------------
+.linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
+  border: none
+  background-color: #C0C942
