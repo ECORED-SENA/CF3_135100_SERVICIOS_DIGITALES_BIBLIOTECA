@@ -31,7 +31,7 @@
 
           .bg--darkGray.p-5.br_01(titulo="Objeto")
             h4 Objeto
-            p Cantidad de datos que puede almacenar el dispositivo ya sea en bytes, gigabytes, terabytes e inclusive si maneja sistemas de información como Big Data en petabytes.  
+            p Es sobre lo que se estudia y analiza para volverlo conocimiento.
 
           .bg--darkGray.p-5.br_01(titulo="Operación cognoscitiva")
             h4 Operación cognoscitiva

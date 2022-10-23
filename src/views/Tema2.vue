@@ -13,7 +13,7 @@
         figure
           img(src='@/assets/curso/temas/t2/t2_01.png' alt='')
       .col-lg-7
-        p La netiqueta hace referencia al conjunto de criterios y normas, asociados al comportamiento en las redes de comunicación virtual: correos electrónicos, páginas web, WhatsApp, Facebook, Twitter, Meet, Zoom, chatbots, foros, blogs y demás herramientas o entornos.
+        p La netiqueta hace referencia al conjunto de criterios y normas, asociados al comportamiento en las redes de comunicación virtual: correos electrónicos, páginas <em>web</em>, WhatsApp, Facebook, Twitter, Meet, Zoom, <em>chatbots</em>, foros, <em>blogs</em> y demás herramientas o entornos.
         .bg--Orange.p-4
           p.mb-0 En síntesis, la netiqueta son las reglas que orientan sobre cómo actuar cuando hay hechos comunicativos en cualquier entorno virtual para garantizar la convivencia y adecuada interacción.
 
@@ -82,7 +82,7 @@
             | Tener en cuenta y aplicar la ortografía y signos de puntuación.
           li
             i.fa-li.fas.fa-dot-circle.txt--brown
-            | Por ningún motivo hacer bullying.
+            | Por ningún motivo hacer <em>bullying</em>.
 
     .bg--brown.br_01.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -215,13 +215,13 @@
             .col-12
               p.mb-0 Se establece según el mercado al que se desea incursionar y debe contar con los componentes antes mencionados, acá se pueden encontrar desde tarjetas de presentación, hasta portafolios de productos o servicios.  
 
-          .row(titulo="Página web")
+          .row(titulo="Página <em>web</em>")
             .col-12
-              p.mb-0 Es indispensable la creación de un sitio web que abra oportunidades para que la entidad se haga conocer. Además, para generar una comunicación en línea y directa con los clientes.
+              p.mb-0 Es indispensable la creación de un sitio <em>web</em> que abra oportunidades para que la entidad se haga conocer. Además, para generar una comunicación en línea y directa con los clientes.
 
           .row(titulo="Canales de comunicación")
             .col-12
-              p.mb-0 Se establecen según necesidades, pero se recomiendan estos: telefónico, redes sociales, sitio web y demás que garanticen una respuesta oportuna al cliente.
+              p.mb-0 Se establecen según necesidades, pero se recomiendan estos: telefónico, redes sociales, sitio <em>web</em> y demás que garanticen una respuesta oportuna al cliente.
 
       .col-lg-4.d-none.d-lg-flex
         figure
@@ -317,7 +317,7 @@
               .col
                 h3.mb-2 Material bibliográfico 
 
-          p.mb-0 El material bibliográfico de una biblioteca es la cantidad de libros, revistas, investigaciones y demás fuentes universales, nacionales o regionales de datos impresos o digitales con las que cuenta. Este material se crea según las necesidades de la comunidad; su actualización y stock dependen del volumen de consulta que se proyecte; y su variación se da según la demanda de información de los usuarios.
+          p.mb-0 El material bibliográfico de una biblioteca es la cantidad de libros, revistas, investigaciones y demás fuentes universales, nacionales o regionales de datos impresos o digitales con las que cuenta. Este material se crea según las necesidades de la comunidad; su actualización y <em>stock</em> dependen del volumen de consulta que se proyecte; y su variación se da según la demanda de información de los usuarios.
 
         .col-lg-5
           figure
