@@ -121,16 +121,16 @@
                     h5.txt--orange Objetivos
                     p.mb-0 Medir y verificar su cumplimiento e identificar si se presentan nuevas necesidades en el proceso con el usuario mejorando sus habilidades continuamente.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
-        .cstm_H3.mb-4
-          .row.align-items-end
-            .col-auto             
-              figure
-                img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
-            .col
-              h3.mb-2 Temáticas y tipos de acciones formativas 
+    .cstm_H3.mb-4
+      .row.align-items-end
+        .col-auto             
+          figure
+            img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
+        .col
+          h3.mb-2 Temáticas y tipos de acciones formativas
 
+    .row.justify-content-center.align-items-center.mb-5        
+      .col-lg-7
         p Las bibliotecas tienen la misión de brindar todo tipo de herramientas que garanticen que el usuario pueda acceder a la información que requiere para mejorar sus habilidades en sus procesos formativos o actualización continua, gracias a los datos que estas brindan a sus clientes; de ahí se desprenden temáticas y acciones de formación que posibilitan esta gestión, de forma exitosa, en el usuario.
         .bg--paleOrange.p-3
           p.mb-0 Las bibliotecas, luego, son gestoras activas y fundamentales en la formación de la comunidad y hacen parte de la estructura complementaria de la escuela y el sistema educativo.
@@ -207,7 +207,7 @@
               figure
                 img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
             .col
-              h3.mb-2 Habilidades informacionales
+              h3.mb-2.mb-sm-3.mb-lg-2 Habilidades informacionales
 
     p Las bibliotecas representan el eje de consulta de información disponible para todo tipo de usuario, por ende, está en constante generación de estrategias para que el cliente desarrolle habilidades informacionales. Las habilidades informacionales son conocimientos, pericia y aptitudes que permiten que el usuario de la biblioteca, o el bibliotecólogo, tenga la capacidad de buscar información, organizarla, comprenderla y transmitirla.
 

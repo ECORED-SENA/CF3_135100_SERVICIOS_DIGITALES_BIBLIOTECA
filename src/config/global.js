@@ -274,7 +274,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo de Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -308,25 +308,72 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios -Regional Tolima',
+      },
+      {
+        nombre: 'Magdi Khalifah',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

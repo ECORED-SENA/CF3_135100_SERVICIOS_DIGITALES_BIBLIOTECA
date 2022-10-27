@@ -26,7 +26,7 @@
               figure
                 img(src="@/assets/curso/temas/t6/t6_02.png", alt="alt") 
             .col-lg-6
-              h5.txt--orange <em>Blog</em> 
+              h4.txt--orange <em>Blog</em> 
               p.mb-0 Sirve para escribir artículos, noticias e información de interés, por medio de enlaces videos o escritos; también el autor puede generar permisos para que otras personas complementen la información. Además, aporta a la difusión de información, mayor interacción y comunicación, permite la publicación de contenidos y permite al usuario conocer los productos y servicios que brinda la biblioteca.
 
           .row.justify-content-center.align-items-center
@@ -34,7 +34,7 @@
               figure
                 img(src="@/assets/curso/temas/t6/t6_03.png", alt="alt") 
             .col-lg-6
-              h5.txt--orange Wiki 
+              h4.txt--orange Wiki 
               p.mb-0 Es un espacio donde las personas pueden trabajar, asincrónicamente, elaborando contenidos. Facilitan el trabajo en línea, permiten trabajar en las investigaciones de forma colaborativa y elaboración de guías.
 
           .row.justify-content-center.align-items-center
@@ -42,7 +42,7 @@
               figure
                 img(src="@/assets/curso/temas/t6/t6_04.png", alt="alt") 
             .col-lg-6
-              h5.txt--orange Redes sociales
+              h4.txt--orange Redes sociales
               p.mb-0 Son sitios <em>web</em> donde cada persona tiene una página y puede publicar temas de interés y comunicarse con otros usuarios, de forma sincrónica o asincrónica. Aportan en la localización de usuarios, la comunicación en tiempo real, la interacción virtual. Ofrecen dinamismo en la gestión de la información.
 
           .row.justify-content-center.align-items-center
@@ -50,7 +50,7 @@
               figure
                 img(src="@/assets/curso/temas/t6/t6_05.png", alt="alt") 
             .col-lg-6
-              h5.txt--orange Entornos para compartir contenido
+              h4.txt--orange Entornos para compartir contenido
               p.mb-0 Son espacios que les permiten a las personas almacenar documentos, videos y demás información. Aportan en la gestión para trabajar en línea, enviar documentos de un tamaño pesado, crear carpetas colaborativas, compartir vídeos y reproducirlos en línea, en varias pantallas.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")

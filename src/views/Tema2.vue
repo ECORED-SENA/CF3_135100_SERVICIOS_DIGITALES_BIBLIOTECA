@@ -162,11 +162,11 @@
       .col-lg-7
         .cstm_H3.mb-4
           .row.align-items-end
-            .col-auto             
+            .col-auto           
               figure
                 img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
             .col
-              h3.mb-2 Imagen corporativa  
+              h3.mb-3.mb-lg-2 Imagen corporativa  
 
         p Se trata de aquellas características que hacen a una organización o biblioteca, única. Se representa en la marca, logotipos, colores corporativos y demás que generan una recordación en el usuario para despertar interés.
 
@@ -233,11 +233,11 @@
       .col-lg-7
         .cstm_H3.mb-4
           .row.align-items-end
-            .col-auto             
+            .col-auto.cstm_H3--icon             
               figure
                 img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
             .col
-              h3.mb-2 Didácticas de la formación y modalidades de atención 
+              h3.mb-1.mb-lg-2 Didácticas de la formación y modalidades de atención 
 
         p Las bibliotecas, comúnmente, sirven de estímulo a los procesos de formación escolares de la niñez, la juventud y la población adulta de todas las edades. Muchos docentes las utilizan en sus estrategias didácticas y procesos de enseñanza. Ellas, a través de sus modalidades de atención, prestan sus servicios apoyando los aprendizajes y la apropiación del conocimiento propuesto.
 
@@ -315,7 +315,7 @@
                 figure
                   img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
               .col
-                h3.mb-2 Material bibliográfico 
+                h3.mb-3.mb-lg-2 Material bibliográfico 
 
           p.mb-0 El material bibliográfico de una biblioteca es la cantidad de libros, revistas, investigaciones y demás fuentes universales, nacionales o regionales de datos impresos o digitales con las que cuenta. Este material se crea según las necesidades de la comunidad; su actualización y <em>stock</em> dependen del volumen de consulta que se proyecte; y su variación se da según la demanda de información de los usuarios.
 
@@ -340,7 +340,7 @@
       .col-xl-4.col-md-6.mb-4(data-aos="flip-left")       
         .crd_hover_txt.br_01                
           .crd_hover_txt--img.mb-0.p-4       
-            img(src="@/assets/curso/temas/t2/t2_17.png").mb-4
+            img(src="@/assets/curso/temas/t2/t2_18.png").mb-4
             h4.text-white.text-center Magnético
 
           .crd_hover_txt--font 
@@ -351,7 +351,7 @@
       .col-xl-4.col-md-6.mb-4(data-aos="flip-left")       
         .crd_hover_txt.br_01                
           .crd_hover_txt--img.mb-0.p-4       
-            img(src="@/assets/curso/temas/t2/t2_18.png").mb-4
+            img(src="@/assets/curso/temas/t2/t2_17.png").mb-4
             h4.text-white.text-center Electrónico
 
           .crd_hover_txt--font 

@@ -102,7 +102,7 @@
 
       .row.justify-content-center.mb-5
         .col-auto
-          h5.pill_Black.text-white Características secundarias de usuarios de bibliotecas
+          h4.pill_Black.text-white Características secundarias de usuarios de bibliotecas
 
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -196,7 +196,7 @@
             figure
               img(src="@/assets/curso/temas/t1/t1_10.svg", alt="alt").img300.m-auto
           .p-4
-            h5.txt--dark.text-center Hábitos de lectura en la sociedad
+            h4.txt--dark.text-center Hábitos de lectura en la sociedad
             p.mb-0 Las personas más vulnerables, dadas las condiciones propias de su realidad y entornos, suelen no tener satisfactorios hábitos de lectura que se evidencian, generalmente, en la comprensión de la misma. 
       .col-lg-6(data-aos="zoom-in-up")
         .bg--gray.hg-100
@@ -204,7 +204,7 @@
             figure
               img(src="@/assets/curso/temas/t1/t1_11.svg", alt="alt").img300.m-auto
           .p-4
-            h5.txt--dark.text-center Aportes de las bibliotecas a los hábitos sociales
+            h4.txt--dark.text-center Aportes de las bibliotecas a los hábitos sociales
             p.mb-0 Desde las bibliotecas, la gestión que se haga impactará proporcionalmente la formación, la adhesión a la lectura y la información, el aprovechamiento y buen uso de espacios, tiempos y materiales de los servicios documentales y bibliográficos.
 
     separador
@@ -293,7 +293,7 @@
             figure
               img(src="@/assets/curso/temas/recursos/halfCircle_05.svg", alt="alt").img85     
           .col
-            h3.mb-2 Triángulo del servicio
+            h3.mb-3.mb-lg-2 Triángulo del servicio
 
       p.mb-5 Para mitigar fallas en el servicio al cliente en bibliotecas, se debe tener en cuenta el triángulo del servicio con el usuario e identificar cada momento de verdad, en el ciclo que tiene el cliente en biblioteca. El servicio debe ser, como se define en Albrecht (2001), una #[span.bold.txt--brown filosofía organizacional]. Este triángulo concibe el servicio como un todo encadenado y que rodea al cliente y sus intereses y necesidades, como se observa a continuación.
 
@@ -309,7 +309,7 @@
 
       figure.mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/76EijHsS6og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
 
     separador
 
