@@ -97,7 +97,7 @@
                 p.mb-0 Es la imagen mental que crea cuando piensa en la fórmula.
           
 
-      p.mb-5 También, se debe ver atención el video que presenta e identifique en él las ciencias aplicadas en los entornos de bibliotecas para potenciar los elementos del conocimiento.
+      p.mb-5 También, se debe ver a continuación el video que presenta las ciencias aplicadas en los entornos de bibliotecas para potenciar los elementos del conocimiento.
 
       figure
         .video

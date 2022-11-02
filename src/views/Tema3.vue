@@ -68,8 +68,7 @@
             h5.txt--orange Metodologías y técnicas
             p.text-white.mb-0 En cuanto a metodologías y técnicas de alfabetización informacional, merece la pena mencionar que estas funcionan, justamente, para apoyar y hacer efectivo el proceso mismo.
 
-      p.text-center Conozca el principal método utilizado para la alfabetización en la biblioteca 
-      p.text-center.mb-5 En el esquema que se muestra a continuación, se muestra identifique sus pasos:
+      p.text-center Conozca el principal método utilizado para la alfabetización en la biblioteca mediante el esquema que se muestra a continuación:      
 
       .row.justify-content-center.mb-5
         .col-lg-6
@@ -101,7 +100,7 @@
                     h5.txt--orange Técnica
                     p.mb-4 Identificar las búsquedas de datos
                     h5.txt--orange Objetivos
-                    p.mb-0 Plantear herramientas de búsqueda de información e identificar cuales utiliza el usuario.
+                    p.mb-0 Plantear herramientas de búsqueda de información e identificar cuáles utiliza el usuario.
                 .row
                   .col-12.text-center
                     h5.txt--orange Técnica
@@ -367,7 +366,7 @@
               .col
                 .row.align-items-center  
                   .col
-                    h5.txt--brown ¡Importance!
+                    h5.txt--brown ¡Importante!
                     p.mb-0 Los procesos de búsqueda mejoran la gestión de consulta permanentemente, ya que estos se ajustan, cada vez, a los cambios tecnológicos y de paradigmas, que dinamizan las experiencias múltiples del ser humano.
                   .col-lg-6.d-none.d-lg-flex
                     figure

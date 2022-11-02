@@ -151,13 +151,15 @@ export default {
   complementario: [
     {
       tema: 'Cliente o usuario',
-      referencia: 'Ecosistema de Recursos Educativos Digitales SENA. (2021).',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Cliente.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4WIq433jNMA',
     },
     {
       tema: 'Netiqueta y protocolo empresarial',
-      referencia: 'Ecosistema de Recursos Educativos Digitales SENA. (2019). ',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2019). Netiqueta y comunicación en medios digitales.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=nETS1sXMKbw',
     },
@@ -245,7 +247,7 @@ export default {
     {
       referencia:
         'Bawden, D. (2002). Revisión de los conceptos de alfabetización informacional y alfabetización digital. Anales de Documentación (5) ',
-      link: 'http://www.um.es/fccd/anales/ado5/ado521.pdf',
+      link: 'https://revistas.um.es/analesdoc/article/view/2261/2251',
     },
     {
       referencia:
@@ -255,7 +257,7 @@ export default {
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje. SENA. (s. f.). Población vulnerable.',
+        'Servicio Nacional de Aprendizaje. SENA. (s. f.). Poblaciones vulnerables.',
       link: 'https://www.sena.edu.co/es-co/trabajo/Paginas/default.aspx',
     },
     {

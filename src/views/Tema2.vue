@@ -117,6 +117,9 @@
                 | #[strong Evaluar:] ¿es clara la información?
               li.mb-2
                 i.fa-li.fas.fa-dot-circle.txt--brown
+                | #[strong En el proceso:] no tutear, no dejar tiempos de espera prolongados, no hablar con tono de voz gritona etc. 
+              li.mb-2
+                i.fa-li.fas.fa-dot-circle.txt--brown
                 | Otras establecidas por la biblioteca.
         
           .col-lg-6.col-10

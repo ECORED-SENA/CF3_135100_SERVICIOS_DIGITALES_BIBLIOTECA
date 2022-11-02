@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Registro de información    
+      h1 <em>Web</em> 2.0. y referencia virtual 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1        
@@ -69,7 +69,7 @@
         figure
           img(src="@/assets/curso/temas/t6/t6_06.svg", alt="alt") 
       .col-lg-8
-        p Por su parte, la #[span.bold.txt--orange referencia virtual] es un servicio que se presta a diferentes usuarios para encontrar variedad fuentes de información disponibles en la <em>web</em>, con el propósito de apoyar a la gestión de la investigación de estudiantes, investigadores o usuarios que no pueden desplazarse de forma presencial a la biblioteca. 
+        p Por su parte, la #[span.bold.txt--orange referencia virtual] es un servicio que se presta a diferentes usuarios para encontrar variedad de fuentes de información disponibles en la <em>web</em>, con el propósito de apoyar a la gestión de la investigación de estudiantes, investigadores o usuarios que no pueden desplazarse de forma presencial a la biblioteca. 
         p En relación con la referencia virtual, se deben tener presentes los siguientes aspectos:
 
     .row.justify-content-center.px-2

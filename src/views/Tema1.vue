@@ -181,7 +181,7 @@
 
           .row(data-aos="zoom-in")
             .col-auto
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Población_vulnerable.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Poblacion_vulnerable.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -326,7 +326,7 @@
           figure.mb-4
             img(src='@/assets/curso/temas/t1/t1_23.svg' alt='').img450
           h5 Ciclo de servicio 
-          p.mb-0 Es importante conocer los momentos de verdad que existen con el cliente, mediante el denominado ciclo de servicio: una representación gráfica de cada momento de la vedad con el usuario, es decir, cada vez que el cliente interactúa con la biblioteca, bien será en forma física o digital.<br><br>Incluir en el modal el gráfico del Ciclo del servicio en biblioteca, que está enseguida, en este Word.
+          p.mb-0 Es importante conocer los momentos de verdad que existen con el cliente, mediante el denominado ciclo de servicio: una representación gráfica de cada momento de la vedad con el usuario, es decir, cada vez que el cliente interactúa con la biblioteca, bien será en forma física o digital.
 
       .col-lg-4.d-none.d-lg-flex
         figure

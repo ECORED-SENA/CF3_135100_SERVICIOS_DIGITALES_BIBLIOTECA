@@ -42,7 +42,7 @@
                     h5.txt--orange Estrategias 
                     p.mb-4 Acceso a la información
                     h5.txt--orange Objetivos
-                    p.mb-0 Mantener las herramientas pertinentes que garanticen que el usuario obtenga la información pertinente.    
+                    p.mb-0 Mantener las herramientas que garanticen que el usuario obtenga la información pertinente.    
                     h5.txt--orange Consideraciones
                     p.mb-0 Se gestiona y apoya con las entidades del Estado. 
 
@@ -105,7 +105,7 @@
           figure
             img(src="@/assets/curso/temas/recursos/halfCircle_03.svg", alt="alt").img85
         .col
-          p.mb-0 Y en la siguiente tabla, se podrán conocer los objetivos, tipos y consideraciones del desarrollo sostenible; e sugiere establecer las primeras conclusiones sobre el impacto que ello tiene en los procesos de servicios de bibliotecas.
+          p.mb-0 Y en la siguiente tabla, se podrán conocer los objetivos, tipos y consideraciones del desarrollo sostenible; se sugiere establecer las primeras conclusiones sobre el impacto que ello tiene en los procesos de servicios de bibliotecas.
 
       .row.justify-content-center
         .col-lg-10
@@ -122,7 +122,7 @@
             tbody
               tr.cell_Pale
                 td.text-center Disminuir la pobreza
-                td Acceso a la información, capacitación, Apoyo al empresario, Gobierno e instituciones.
+                td Acceso a la información, capacitación, apoyo al empresario, Gobierno e instituciones.
                 td Generar oportunidades que aporten a la calidad de vida.
               tr.cell_White
                 td.text-center Evitar el hambre
